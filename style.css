@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+body {
+    font-size: 250%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #222;
+    text-transform: uppercase;
+}
+
+body a {
+    color: rgb(133, 161, 157);
+    text-decoration: none;
+}
+#title{
+    color: rgb(150, 200, 200);
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+    margin-bottom: 5px;
+}
+#description{
+    color: gray;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: medium;
+}
+
+.fancy-list {
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.fancy-list>li {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #333;
+    line-height: 1;
+}
+
+.fancytexthover {
+    position: relative;
+    display: inline-block;
+}
+
+.fancytexthover:hover .textwrapper {
+    width: 100%;
+}
+
+.textwrapper {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    display: inline-block;
+    white-space: pre;
+    color: rgb(107, 255, 230);
+    transition: width 500ms;
+    border-bottom: 1px solid;
+    padding-bottom: 0.15em;
+}
+
+.textwrapper a {
+    color: inherit;
+}
+.smaller {
+    margin-left: 2vw;
+    font-size: medium !important;    
+}
